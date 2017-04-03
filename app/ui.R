@@ -1,6 +1,13 @@
 library(shinydashboard)
 library(shiny)
+library(ggplot2) # depth percentage plot
+library(plyr)  # rounding dollar amount
+library(leaflet)
+library(googleway)
+library(magrittr)  # # for the pipe '%>%'
+library(ggmap)
 
+load("env.RData")
 ## Sidebar content
 
 sidebar <- dashboardSidebar(
