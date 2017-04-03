@@ -7,6 +7,8 @@ library(googleway)
 library(magrittr)  # # for the pipe '%>%'
 library(ggmap)
 
+load("env.RData")
+
 streetviewAPIkey <- "AIzaSyB-Mr1Dool2jrUUYB19SQN84d6VDcZNrEQ"
 
 server <- function(input, output) {
